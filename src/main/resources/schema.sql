@@ -1,4 +1,6 @@
-CREATE TABLE items (
+DROP TABLE IF EXISTS messages;
+
+CREATE TABLE messages (
     id SERIAL NOT NULL,
-    name VARCHAR(255) NOT NULL
+    text VARCHAR(255) NOT NULL
 );
